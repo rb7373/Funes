@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelTerminosyCondiciones" min="-2" pref="284" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButtonSalirTerminosyCondiciones" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="462" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="472" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButtonSalirTerminosyCondiciones" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="jLabelTerminosyCondiciones" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="22" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextAreaTerminosYcondiciones">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="T&#xe9;rminos y Condiciones del uso de FUNATEC&#xa;&#xa;Declaraci&#xf3;n de derechos y responsabilidades:&#xa;&#x9;&#xa;Al aceptar los t&#xe9;rminos y condiciones del uso de FUNATEC,&#xa;usted se compromete a aceptar todas las condiciones &#xa;redactadas en el presente documento.&#xa;&#xa;Cuenta&#xa;&#xa;Al crear una cuenta en FUNATEC,  usted deber&#xe1; entender y &#xa;aceptar lo siguiente:&#xa;&#x2022;&#x9;A fin de crear una cuenta en FUNATEC,  usted &#xa;proporcionar&#xe1; su informaci&#xf3;n personal. Esto incluye su &#xa;n&#xfa;mero de c&#xe9;dula, nombre completo y apellido.&#xa;&#x2022;&#x9;Usted deber&#xe1; suministrarnos un nickname que &#xa;identificar&#xe1; su cuenta.&#xa;&#x2022;&#x9;Usted tendr&#xe1; la opci&#xf3;n de escoger si su informaci&#xf3;n&#xa;personal es p&#xfa;blica o privada. Si escoge &#x201c;Privada&#x201d; entiende &#xa;que FUNATEC seguir&#xe1; teniendo acceso a esta informaci&#xf3;n. &#xa;Sin embargo esta no ser&#xe1; sumistrada a terceros.&#xa;&#xa;Seguridad&#xa;&#xa; Todos los usuarios de FUNATEC deben proporcionar su &#xa;informaci&#xf3;n personal, y solo existir&#xe1; una cuenta por &#xa;persona. Debido a lo anterior, al aceptar los t&#xe9;rminos y&#xa;condiciones usted se compromete a lo siguiente:&#xa;&#x2022;&#x9;Usted no crear&#xe1; una cuenta falsa sumistrando los &#xa;datos personales de otra persona.&#xa;&#x2022;&#x9;Usted no crear&#xe1; una cuenta si no es mayor de 18 a&#xf1;os.&#xa;&#x2022;&#x9;Usted no har&#xe1; su contrase&#xf1;a p&#xfa;blica ni dejar&#xe1; que &#xa;otras personas usen su cuenta por usted.&#xa;&#x2022;&#x9;Al seleccionar su nickname, nos reservamos el derecho&#xa;de denegarlo  si ese ya existe en el sistema o  reclamarlo &#xa;por cualquier otro motivo.&#xa;&#xa;Protecci&#xf3;n de los derechos de otros&#xa;&#xa;FUNATEC fue creado para alzar la voz ante problemas &#xa;nacionales, no para pisotear los derechos de ninguna persona.&#xa;Por lo anterior, al aceptar los t&#xe9;rminos y condiciones del&#xa;uso de FUNATEC, usted se compromete a lo siguiente:&#xa;&#x2022;&#x9;Usted no crear&#xe1; un perfil de una persona acus&#xe1;ndola &#xa;de  actos falsos ni suministrando archivos probatorios falsos.&#xa;&#x2022;&#x9;Al comentar y calificar el perfil de una persona, &#xa;usted denunciar&#xe1; su mal acto con franqueza, pero con respeto.&#xa;&#x2022;&#x9;Usted no inducir&#xe1; a terceros de calificar a una &#xa;persona siguiendo sus criterios. Respetar&#xe1; la opini&#xf3;n de los&#xa;dem&#xe1;s y por ninguna raz&#xf3;n tratar&#xe1; de manipular su criterio.&#xa;&#x2022;&#x9;Usted no reportar&#xe1; a una persona si esta no tiene &#xa;motivo de reporte, ni inducir&#xe1; a otros a hacer lo mismo.&#xa;&#xa;Dispositivos m&#xf3;viles&#xa;&#xa;&#x2022;&#x9;FUNATEC est&#xe1; disponible para la plataforma Android &#xa;de manera gratuita. Sin embargo, usted deber&#xe1; asumir los &#xa;gastos normales de su  operadora.&#xa;&#xa;Conflictos&#xa;&#xa;&#x2022;&#x9;Si alguien interpone una demanda contra nosotros &#xa;relacionada con un perfil que usted cre&#xf3; en FUNATEC , o de &#xa;alguno de sus comentarios, archivos probatorios o &#xa;calificaciones,  usted se encargar&#xe1;  de indemnizarnos y nos &#xa;librar&#xe1; de la responsabilidad por todos los posibles da&#xf1;os,&#xa;p&#xe9;rdidas y gastos de cualquier tipo relacionados con dicha &#xa;demanda. FUNATEC no  controla ni dirige las acciones de sus&#xa;usuarios  y no es responsable del contenido o la informaci&#xf3;n&#xa;que los usuarios transmitan o compartan en la aplicaci&#xf3;n.&#xa;&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButtonSalirTerminosyCondiciones">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/funes/view/imagenes/Button-Close-icon_1.png"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="contentAreaFilled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelTerminosyCondiciones">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="T&#xe9;rminos y Condiciones FUNATEC"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
